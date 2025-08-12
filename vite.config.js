@@ -4,9 +4,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  preview: {
-    allowedHosts: ['3a3d0fdba0f7.ngrok-free.app']
-  },
+  // preview: {
+  //   allowedHosts: ['3a3d0fdba0f7.ngrok-free.app']
+  // },
   plugins: [react(), VitePWA({
     
     registerType: 'prompt',
